@@ -23,7 +23,7 @@ function MovieModal({ movie, onClose }: MovieModalProps) {
           <h2>{movie.title}</h2>
           <p>{movie.overview}</p>
           <p>
-            <strong>{movie.release_date}</strong> movie_release_date
+            <strong>Release:{movie.release_date}</strong>
           </p>
           <p>
             <strong>Rating:</strong> {movie.vote_average}
