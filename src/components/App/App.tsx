@@ -16,7 +16,7 @@ function App() {
 
   const fetchMovies = async (query: string) => {
     setPosts([]);
-    setLoading(false);
+    setLoading(true);
     setError(false);
     try {
       const data = await movieServices(query);
